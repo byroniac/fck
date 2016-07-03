@@ -36,7 +36,7 @@ namespace fck
         {
             if (!double.TryParse(textBox1.Text, out degreesFahrenheit))
             {
-                degreesFahrenheit = 32;
+                degreesFahrenheit = 0;
             }
             degreesCelsius = (degreesFahrenheit - 32) * 5 / 9;
             degreesKelvin = degreesCelsius + 273.15;
@@ -58,7 +58,7 @@ namespace fck
         {
             if (!double.TryParse(textBox3.Text, out degreesKelvin))
             {
-                degreesKelvin = 273.15;
+                degreesKelvin = 0;
             }
             degreesCelsius = degreesKelvin - 273.15;
             degreesFahrenheit = (degreesCelsius * 9 / 5) + 32;
@@ -68,7 +68,7 @@ namespace fck
         public MainWindow()
         {
             InitializeComponent();
-            convertFahrenheit();
+            convertCelsius();
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)

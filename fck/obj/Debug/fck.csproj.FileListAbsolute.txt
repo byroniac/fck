@@ -1,6 +1,11 @@
 C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.exe.config
+C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.exe.manifest
+C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.application
 C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.exe
 C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.pdb
+C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.exe.CodeAnalysisLog.xml
+C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.exe.lastcodeanalysissucceeded
+C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.csprojResolveAssemblyReference.cache
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\MainWindow.g.cs
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\App.g.cs
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck_MarkupCompile.cache
@@ -9,13 +14,8 @@ C:\Users\byron\Source\Repos\fck\fck\obj\Debug\MainWindow.baml
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.g.resources
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.Properties.Resources.resources
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.csproj.GenerateResource.Cache
-C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.exe
-C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.pdb
-C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.exe.CodeAnalysisLog.xml
-C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.exe.lastcodeanalysissucceeded
-C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.exe.manifest
-C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.application
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.TrustInfo.xml
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.exe.manifest
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.application
-C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.csprojResolveAssemblyReference.cache
+C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.exe
+C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.pdb
