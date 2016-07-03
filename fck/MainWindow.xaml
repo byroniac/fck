@@ -9,13 +9,13 @@
     <Grid HorizontalAlignment="Left" Height="306" Margin="10,10,0,0" VerticalAlignment="Top" Width="505">
         <Label x:Name="label" Content="Enter an initial value in one of the temperature text boxes and click Go." Margin="63,10,57,268" Width="385" RenderTransformOrigin="0.5,-1.477"/>
         <Label x:Name="label1" Content="F" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="33,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="33,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" KeyDown="textBox1_KeyDown"/>
         <Button x:Name="button1" Content="Go" HorizontalAlignment="Left" Margin="183,82,0,0" VerticalAlignment="Top" Width="29" Click="button1_Click" RenderTransformOrigin="1.829,0.492"/>
         <Label x:Name="label2" Content="C" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="36"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="33,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="33,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" KeyDown="textBox2_KeyDown"/>
         <Button x:Name="button2" Content="Go" HorizontalAlignment="Left" Margin="183,118,0,0" VerticalAlignment="Top" Width="29" Click="button2_Click"/>
         <Label x:Name="label3" Content="K&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,147,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.531,2.019" Height="36"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="33,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="33,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" KeyDown="textBox3_KeyDown"/>
         <Button x:Name="button3" Content="Go" HorizontalAlignment="Left" Margin="183,154,0,0" VerticalAlignment="Top" Width="29" Click="button3_Click"/>
     </Grid>
 </Window>

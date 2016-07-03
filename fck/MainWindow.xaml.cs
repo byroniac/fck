@@ -34,7 +34,7 @@ namespace fck
 
         private void convertFahrenheit()
         {
-            if(!double.TryParse(textBox1.Text, out degreesFahrenheit))
+            if (!double.TryParse(textBox1.Text, out degreesFahrenheit))
             {
                 degreesFahrenheit = 32;
             }
@@ -45,7 +45,7 @@ namespace fck
 
         private void convertCelsius()
         {
-            if(!double.TryParse(textBox2.Text, out degreesCelsius))
+            if (!double.TryParse(textBox2.Text, out degreesCelsius))
             {
                 degreesCelsius = 0;
             }
@@ -56,7 +56,7 @@ namespace fck
 
         private void convertKelvin()
         {
-            if(!double.TryParse(textBox3.Text, out degreesKelvin))
+            if (!double.TryParse(textBox3.Text, out degreesKelvin))
             {
                 degreesKelvin = 273.15;
             }
@@ -84,6 +84,30 @@ namespace fck
         private void button3_Click(object sender, RoutedEventArgs e)
         {
             convertKelvin();
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                convertFahrenheit();
+            }
+        }
+
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                convertCelsius();
+            }
+        }
+
+        private void textBox3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                convertKelvin();
+            }
         }
     }
 }
