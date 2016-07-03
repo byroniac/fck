@@ -18,3 +18,4 @@ C:\Users\byron\Source\Repos\fck\fck\bin\Debug\fck.application
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.TrustInfo.xml
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.exe.manifest
 C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.application
+C:\Users\byron\Source\Repos\fck\fck\obj\Debug\fck.csprojResolveAssemblyReference.cache
