@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace fck
+[assembly: CLSCompliant(true)]
+namespace Fck
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -27,9 +29,9 @@ namespace fck
 
         private void outputResults()
         {
-            textBox1.Text = degreesFahrenheit.ToString();
-            textBox2.Text = degreesCelsius.ToString();
-            textBox3.Text = degreesKelvin.ToString();
+            textBox1.Text = degreesFahrenheit.ToString(CultureInfo.InvariantCulture);
+            textBox2.Text = degreesCelsius.ToString(CultureInfo.InvariantCulture);
+            textBox3.Text = degreesKelvin.ToString(CultureInfo.InvariantCulture);
         }
 
         private void convertFahrenheit()

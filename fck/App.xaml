@@ -1,7 +1,7 @@
-﻿<Application x:Class="fck.App"
+﻿<Application x:Class="Fck.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:fck"
+             xmlns:local="clr-namespace:Fck"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

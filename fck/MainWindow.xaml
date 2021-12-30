@@ -1,9 +1,9 @@
-﻿<Window x:Name="FCK" x:Class="fck.MainWindow"
+﻿<Window x:Name="FCK" x:Class="Fck.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:fck"
+        xmlns:local="clr-namespace:Fck"
         mc:Ignorable="d"
         Title="FCK - Fahrenheit, Celsius, Kelvin converter" Height="350" Width="525">
     <Grid HorizontalAlignment="Left" Height="306" Margin="10,10,0,0" VerticalAlignment="Top" Width="505">
